@@ -1,5 +1,5 @@
 <?php
-include '../includes/test_db.php';
+include '../includes/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = pg_escape_string($_POST['title']);
